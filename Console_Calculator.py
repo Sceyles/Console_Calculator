@@ -21,7 +21,7 @@ def get_num(prompt):
 
 while True:
     op = input("Select (+ - * /) or 'Exit':").lower()
-    if op == 'Выход':
+    if op == 'exit':
         break
     
     if op not in ["+", "-", "*", "/"]:
