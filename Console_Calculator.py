@@ -24,7 +24,7 @@ while True:
     if op == 'exit':
         break
     
-    if op not in ["+", "-", "*", "/"]:
+    if op not in ["+", "-", "*", "/", "exit"]:
         print("Unknown operation, please try again!")
         continue
     
